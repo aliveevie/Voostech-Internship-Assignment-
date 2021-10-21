@@ -1,0 +1,11 @@
+#Python program to print Even Numbers from 1 to 100
+print('Using for loop')
+i, j = 1, 100
+# iterating each number in list
+for num in range(i, j + 1):
+    #checking condition
+    if num % 2 == 0:
+        print(num, end = " ")
+even = []
+even.append(num)
+print('\nEven Numbers: ', even)
